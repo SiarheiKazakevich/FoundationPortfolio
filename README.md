@@ -1,1 +1,1 @@
-https://SiarheiKazakevich.github.io/foundation/FoundationPortfolio/
+https://SiarheiKazakevich.github.io/FoundationPortfolio/
