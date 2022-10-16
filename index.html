@@ -4,6 +4,7 @@
 <head>
    <meta charset="utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link href="css/style.css" rel="stylesheet" type="text/css" />
    <title>Foundation | Welcome</title>
    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
 </head>
@@ -11,139 +12,189 @@
 <body>
 
    <!-- Start Top Bar -->
-   <div class="top-bar">
+   <div class="top-bar" id="myCV">
       <div class="top-bar-left">
          <ul class="menu">
-            <li class="menu-text">CV</li>
-            <li><a href="#">CONTACTS</a></li>
-            <li><a href="#">INFO</a></li>
-            <li><a href="#">SKILLS</a></li>
-            <li><a href="#">CODE</a></li>
-            <li><a href="#">EXPERIENCE</a></li>
-            <li><a href="#">EDUCATION</a></li>
-            <li><a href="#">ENGLISH</a></li>
+            <li class="menu-text">myCV</li>
+         </ul>
+      </div>
+
+
+      <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+         <button class="menu-icon" type="button" data-toggle></button>
+         <div class="title-bar-title">menu</div>
+
+      </div>
+      <div class="menu top-bar-right " id="main-menu">
+         <ul class="menu vertical medium-horizontal  medium-text-center dropdown"
+            data-responsive-menu="drilldown medium-dropdown">
+            <!--<li class=" menu-text"></li>-->
+            <li><a href="#CONTACTS">CONTACTS</a></li>
+            <li><a href="#INFO">INFO</a></li>
+            <li><a href="#SKILLS">SKILLS</a></li>
+            <li><a href="#CODE">CODE</a></li>
+            <li><a href="#EXPERIENCE">EXPERIENCE</a></li>
+            <li><a href="#EDUCATION">EDUCATION</a></li>
+            <li><a href="#ENGLISH">ENGLISH</a></li>
          </ul>
       </div>
    </div>
    <!-- End Top Bar -->
 
    <div class="callout large primary">
-      <div class="row column text-center">
-         <h1>Siarhei Kazakevich</h1>
+      <div class="row column text-center ">
+         <div class="row text-center foto">
+            <img src="assets/img/foto2.jpg" width="150" height="150" alt="fon">
+            <h1>Siarhei Kazakevich</h1>
+         </div>
+
          <h2 class="subheader">junior front-end developer</h2>
       </div>
    </div>
 
    <!-- We can now combine rows and columns when there's only one column in that row -->
    <div class="row medium-8 large-7 columns">
-      <div class="blog-post">
+      <div class="blog-post" id="CONTACTS">
          <h3>CONTACTS <small>3/6/2015</small></h3>
-         <img class="thumbnail" src="https://via.placeholder.com/850x350">
-         <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue.
-            Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget
-            odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo,
-            eget luctus.</p>
+         <img class="thumbnail" src="assets/img/map.PNG">
+         <ul class="row column text-left">
+            <li> <b>Location:</b> Minsk, Belarus </li>
+            <li> <b>Phone:</b> +375 29 155-59-73 </li>
+            <li> <b>Email:</b> dianromk@gmail.com </li>
+            <li> <b>GitHub:</b> SiarheiKazakevich </li>
+         </ul>
          <div class="callout">
-            <ul class="menu simple">
-               <li><a href="#">Author: Mike Mikers</a></li>
-               <li><a href="#">Comments: 3</a></li>
+            <ul class="row column text-right ">
+               <li><a href="#myCV">На верх</a></li>
+               <!-- <li><a href="#"></a></li>-->
             </ul>
          </div>
       </div>
 
-      <div class="blog-post">
+      <div class="blog-post" id="INFO">
          <h3>INFO <small>3/6/2015</small></h3>
-         <img class="thumbnail" src="https://via.placeholder.com/850x350">
-         <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue.
-            Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget
-            odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo,
-            eget luctus.</p>
+         <!--<img class="thumbnail" src="https://via.placeholder.com/850x350">assets/img/aboutMe.jpg-->
+         <img class="thumbnail" src="assets/img/aboutMe2.png">
+         <p>I have good interpersonal skills, I'm an excellent
+            team worker and very willing to learn and develop new skills.
+            I'm reliable and dependable and often seek new responsibilities
+            within a wide range of employment areas.</p>
          <div class="callout">
-            <ul class="menu simple">
-               <li><a href="#">Author: Mike Mikers</a></li>
-               <li><a href="#">Comments: 3</a></li>
+            <ul class="row column text-right">
+               <li><a href="#myCV">На верх</a></li>
+               <!-- <li><a href="#"></a></li>-->
             </ul>
          </div>
       </div>
 
-      <div class="blog-post">
+      <div class="blog-post" id="SKILLS">
          <h3>SKILLS <small>3/6/2015</small></h3>
-         <img class="thumbnail" src="https://via.placeholder.com/850x350">
-         <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue.
-            Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget
-            odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo,
-            eget luctus.</p>
+         <img class="thumbnail" src="assets/img/skills2.png">
+         <ul class="row column text-left">
+            <li>HTML + CSS</li>
+            <li>JavaScript (Basic)</li>
+            <li>Git</li>
+            <li>Adobe Fotoshop</li>
+         </ul>
          <div class="callout">
-            <ul class="menu simple">
-               <li><a href="#">Author: Mike Mikers</a></li>
-               <li><a href="#">Comments: 3</a></li>
+            <ul class="row column text-right">
+               <li><a href="#myCV">На верх</a></li>
+               <!-- <li><a href="#"></a></li>-->
             </ul>
          </div>
       </div>
 
-      <div class="blog-post">
+      <div class="blog-post" id="CODE">
          <h3>CODE <small>3/6/2015</small></h3>
-         <img class="thumbnail" src="https://via.placeholder.com/850x350">
-         <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue.
-            Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget
-            odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo,
-            eget luctus.</p>
+         <img class="thumbnail" src="assets/img/code.jpg">
+         <p>function sum(a, b) {
+            return a + b;
+            }
+            <br>
+            let result = sum(2, 3);
+            <br>
+            alert( result );
+         </p>
          <div class="callout">
-            <ul class="menu simple">
-               <li><a href="#">Author: Mike Mikers</a></li>
-               <li><a href="#">Comments: 3</a></li>
+            <ul class="row column text-right">
+               <li><a href="#myCV">На верх</a></li>
+               <!-- <li><a href="#"></a></li>-->
             </ul>
          </div>
       </div>
 
 
-      <div class="blog-post">
+      <div class="blog-post" id="EXPERIENCE">
          <h3>EXPERIENCE <small>3/6/2015</small></h3>
-         <img class="thumbnail" src="https://via.placeholder.com/850x350">
-         <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue.
-            Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget
-            odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo,
-            eget luctus.</p>
+         <img class="thumbnail" src="assets/img/experience.jpg">
+         <ul class="row column text-left">
+            <li>sololearn</li>
+            <li>mimo</li>
+            <li>codecamp</li>
+         </ul>
          <div class="callout">
-            <ul class="menu simple">
-               <li><a href="#">Author: Mike Mikers</a></li>
-               <li><a href="#">Comments: 3</a></li>
+            <ul class="row column text-right">
+               <li><a href="#myCV">На верх</a></li>
+               <!-- <li><a href="#"></a></li>-->
             </ul>
          </div>
       </div>
 
-      <div class="blog-post">
+      <div class="blog-post" id="EDUCATION">
          <h3>EDUCATION <small>3/6/2015</small></h3>
-         <img class="thumbnail" src="https://via.placeholder.com/850x350">
-         <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue.
-            Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget
-            odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo,
-            eget luctus.</p>
+         <img class="thumbnail" src="assets/img/education.jpg">
+         <ul class="row column text-left">
+            <li>2001-2006 University:** Belarusian State University<br>
+               of Food and Chemical Technologies</li>
+            <li>2006-2011 University:** Academy of Management<br>
+               under the President of the Republic of Belarus</li>
+         </ul>
          <div class="callout">
-            <ul class="menu simple">
-               <li><a href="#">Author: Mike Mikers</a></li>
-               <li><a href="#">Comments: 3</a></li>
+            <ul class="row column text-right">
+               <li><a href="#myCV">На верх</a></li>
+               <!-- <li><a href="#"></a></li>-->
             </ul>
          </div>
       </div>
 
-      <div class="blog-post">
+      <div class="blog-post" id="ENGLISH">
          <h3>ENGLISH <small>3/6/2015</small></h3>
-         <img class="thumbnail" src="https://via.placeholder.com/850x350">
-         <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue.
-            Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget
-            odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo,
-            eget luctus.</p>
+         <img class="thumbnail" src="assets/img/english.jpg">
+         <p><b>A2.</b> I'm currently studying and improve my english.</p>
          <div class="callout">
-            <ul class="menu simple">
-               <li><a href="#">Author: Mike Mikers</a></li>
-               <li><a href="#">Comments: 3</a></li>
+            <ul class="row column text-right">
+               <li><a href="#myCV">На верх</a></li>
+               <!-- <li><a href="#"></a></li>-->
             </ul>
          </div>
       </div>
 
 
    </div>
+   <footer>
+      <div class="down-bar" id="myCV">
+         <div class="top-bar-left">
+            <ul class="menu">
+               <li class="menu-text">myCV</li>
+            </ul>
+         </div>
+         <!--
+         <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+            <button class="menu-icon" type="button" data-toggle></button>
+            <div class="title-bar-title">menu</div>
+        </div>
+        
+         <div class="menu top-bar-right" id="main-menu">
+            <ul class="menu vertical medium-horizontal  medium-text-center dropdown"
+               data-responsive-menu="drilldown medium-dropdown">
+               <li><a href="https://github.com/SiarheiKazakevich" class="githubfooter">GitHub</a></li>
+               <li><a href="https://discord.com/SiarheiKazakevich#7756" class="">Discord</a></li>
+               <li><a href="https://www.instagram.com/_siarhei_kazakevich_/" class="">Instagram</a></li>
+               <li><a href="https://www.facebook.com/dianatser/" class="">Facebook</a></li>
+            </ul>
+         </div>
+      </div>
+   </footer>
 
    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
